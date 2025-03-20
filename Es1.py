@@ -27,7 +27,7 @@ list3 = [x**2 for x in list2]
 print(list3)
 
 
-#Esercizio 2
+#Esercizio 2conda activate nome_ambiente
 list4 = np.array(list1)
 print(list4.size)
 print(list4.dtype)
