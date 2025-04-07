@@ -74,7 +74,6 @@ print("Età media per classe:")
 print(age_by_class)
 
 # Visualizza la distribuzione dell'età per classe
-
 plt.figure(figsize=(10, 6))
 sns.histplot(data=df, x='Age', hue='Pclass', multiple='stack', kde=True)
 plt.title("Distribuzione dell'età per classe")
@@ -84,7 +83,6 @@ plt.legend(title='Classe', loc='upper right')
 plt.show()
 
 # Visualizza la distribuzione dell'età per classe dividendo e mmostrando insieme i dati di uomini e donne
-
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='Pclass', y='Age', hue='Sex', data=df)
 plt.title("Distribuzione dell'età per classe e genere")
