@@ -56,6 +56,10 @@ d = sum(a) - sum(c)
 
 
 #Esercizio 6
+file = np.getfromtxt('file.txt') #non riuscivo a trovare il file 
+np.sum(file[1] > 18)
+np.mean(file[1 > 18])
+np.mean(file[1 > 18]) / np.mean(file[1])
 
 
 #Esercizio 7
